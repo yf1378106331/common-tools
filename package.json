@@ -1,0 +1,35 @@
+{
+  "name": "yf-com-tools",
+  "version": "1.0.3",
+  "description": "this is a util that you can use for easy operation",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yf1378106331/common-tools.git"
+  },
+  "keywords": [
+    "front-end",
+    "utils",
+    "deepClone",
+    "common"
+  ],
+  "author": "yf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yf1378106331/common-tools/issues"
+  },
+  "homepage": "https://github.com/yf1378106331/common-tools#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-uglify": "^6.0.4",
+    "yf-com-tools": "^1.0.0"
+  }
+}
